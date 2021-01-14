@@ -1,0 +1,44 @@
+<ion-content>
+  <ion-card style="width: 400px; height:auto; align-items: center;">
+    <ion-img style="width: 300px; height: 200px; margin: auto;
+    display: block;" src="https://www.pamukkalehaber.com/images/haberler/2019/05/bunlari-biliyor-musunuz_957d8.png"></ion-img>
+<div >
+  <ion-row>
+    <ion-label style="color: black;">Yazar:Kullanıcı
+    </ion-label>
+  </ion-row>
+  <ion-row>
+  <ion-label style="color: black;">Bilginin Başlığı:
+    <ion-input [(ngModel)]="info.Name" placeholder="Default:Sizden Gelenler"></ion-input>
+  </ion-label>
+</ion-row>
+<ion-row>
+  <ion-label style="color: black;">Kategori: 
+    <ion-select [(ngModel)]="info.Category" placeholder="Default:Sinema">
+      <ion-select-option value="Bilim">Bilim</ion-select-option>
+      <ion-select-option value="Tarih">Tarih</ion-select-option>
+      <ion-select-option value="Sinema">Sinema</ion-select-option>
+    </ion-select>
+  </ion-label>
+</ion-row>
+
+<ion-row>
+  <ion-label style="color: black;">Bilgi:
+    <ion-input [(ngModel)]="info.Data" placeholder="Default:Sizden Gelen Bilgi"></ion-input>
+  </ion-label>
+</ion-row>
+<ion-row>
+  <ion-label style="color: black;">Görsel URL:
+    <ion-input [(ngModel)]="info.Imageurl" placeholder="Default:Üstteki Görsel."></ion-input>
+  </ion-label>
+</ion-row>
+  <ion-button color="dark" shape="round" (click)="add(info.Name,info.Category,info.Data,info.Imageurl);">Bilgi Ekle</ion-button>
+  <ion-label style="color: black;">
+    <h1>Eklediğiniz kartları sol taraftaki menüden "Sizden Gelenler" sekmesinde görebilirsiniz.Kart ayrıca Ana Sayfada ve ilgili kategorinin sekmesinde de görünür durumdadır.</h1>
+  </ion-label>
+</div>
+</ion-card>
+<ion-button color="danger" routerLink="/infos/fromuser" shape="round">Eklenen Kartalara Git</ion-button>
+<ion-button color="danger" routerLink="/infos" shape="round">Ana Sayfaya Git</ion-button>
+
+</ion-content>

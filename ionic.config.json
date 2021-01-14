@@ -1,0 +1,7 @@
+{
+  "name": "BBM",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Sinema</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+
+  <ion-card style="width: 400px; height:auto; align-items: center;" *ngFor="let info of infos">
+    <ion-img style="width: 300px; height: 200px; margin: auto;
+    display: block;" src={{info.imageurl}}></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle>{{info.category}} {{info.id}} Yazar:{{info.author}}</ion-card-subtitle>
+      <ion-card-title>{{info.name}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content style="margin: auto;">
+    <h2 style="color: #121212;">{{info.data}}</h2> 
+    </ion-card-content>
+    <ion-button color="dark" shape="round" (click)="delete(info)">Bu kartı sil</ion-button>
+  </ion-card>
+
+</ion-content>
