@@ -30,6 +30,8 @@ Veritabanındaki "Sinema" Kategorisine ait kartları ekranda gösterir.ngOnInit(
 ![Sinema](<Sinema.png>)
 ## 4-Sizden Gelenler (infos-fromuser component)
 Veritabanındaki yazarı "Kullanıcı" olan kartları ekranda gösterir.ngOnInit() de getInfos() çağrılıyor ve orada da infoService (infoService.getInfosFromuser) kullanılıyor.
+###### Sizden Gelenler Sayfası
+![SizdenGelenler](<SizdenGelenler.png>)
 ## 5-Bilgi Ekle (infos-add component)
 ###### Bilgi Ekle Sayfası
 ![Ekle](<Ekle.png>)
@@ -47,6 +49,8 @@ infos-lucky componentinin içinde selector (<app-infos-randomcategory>) ile baş
 Ayrıca Input yapısını da kullandım.
 Sol taraftaki menüden Kendimi Şanslı Hissediyorum seçildiğinde lucky componenti çalışıyor.ngOnInit() de rastgele bir kategori seçiyor.Html kısmında
 bu şekilde <app-infos-randomcategory [category]="randomluckyCategory"> çağırıp seçtiği rastgele kategoriyi parametre olarak göndererek ekranda randomluckyCategory componentini gösterdim. 
+###### Kendimi Şanslı Hissediyorum Sayfası
+![Şanslı](<Şanslı.png>)
 ## 7- infos-randomcategory Componenti
 infos-lucky componentinden gelen kategoriye göre infoService (infoService.getInfosCategory) kullanarak veritabanından bilgileri ekranda gösterir.
 ## *Ionic Toast Service*
