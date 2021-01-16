@@ -18,10 +18,16 @@ ngOnInit() de getInfos() çağrılıyor ve orada da infoService (infoService.get
 
 ## 2-Bilim (infos-science component)
 Veritabanındaki "Bilim" Kategorisine ait kartları ekranda gösterir.ngOnInit() de getInfos() çağrılıyor ve orada da infoService (infoService.getInfosCategory) kullanılıyor.
+###### Bilim Sayfası
+![Bilim](<Bilim.png>)
 ## 3-Tarih (infos-history component)
 Veritabanındaki "Tarih" Kategorisine ait kartları ekranda gösterir.ngOnInit() de getInfos() çağrılıyor ve orada da infoService (infoService.getInfosCategory) kullanılıyor.
+###### Tarih Sayfası
+![Tarih](<Tarih.png>)
 ## 4-Sinema (infos-cinema component)
 Veritabanındaki "Sinema" Kategorisine ait kartları ekranda gösterir.ngOnInit() de getInfos() çağrılıyor ve orada da infoService (infoService.getInfosCategory) kullanılıyor.
+###### Sinema Sayfası
+![Sinema](<Sinema.png>)
 ## 4-Sizden Gelenler (infos-fromuser component)
 Veritabanındaki yazarı "Kullanıcı" olan kartları ekranda gösterir.ngOnInit() de getInfos() çağrılıyor ve orada da infoService (infoService.getInfosFromuser) kullanılıyor.
 ## 5-Bilgi Ekle (infos-add component)
