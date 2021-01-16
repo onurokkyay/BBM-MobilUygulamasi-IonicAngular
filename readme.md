@@ -31,7 +31,7 @@ Veritabanındaki "Sinema" Kategorisine ait kartları ekranda gösterir.ngOnInit(
 ## 4-Sizden Gelenler (infos-fromuser component)
 Veritabanındaki yazarı "Kullanıcı" olan kartları ekranda gösterir.ngOnInit() de getInfos() çağrılıyor ve orada da infoService (infoService.getInfosFromuser) kullanılıyor.
 ###### Sizden Gelenler Sayfası
-![SizdenGelenler](<SizdenGelenler.png>)
+![Sizden Gelenler](<SizdenGelenKartlar.png>)
 ## 5-Bilgi Ekle (infos-add component)
 ###### Bilgi Ekle Sayfası
 ![Ekle](<Ekle.png>)
